@@ -1,0 +1,187 @@
+.BFVBackgorund{
+	height: auto;
+	width: auto;
+	background-image: url(../image/BFV2.jpg);
+	background-size: cover;
+	background-attachment: fixed; 
+}
+.BFV-introduction{
+	min-width: 500px;
+	width: 100%;
+	height:500px;
+	padding: 100px 0px 0px 700px;	
+}
+.BFV-introduction p{
+	max-width: 500px;
+}
+.BFV-introduction img{
+	width: 200px;
+}
+.BFV-Purchase{
+	
+	width: 100%;
+	height:200px;
+	padding-left: 700px;
+	padding-right: 50px;	
+}
+.img_warn{
+	position: relative;
+	top: 8px;
+}
+.BFV-Purchase button{
+	color: #fff;
+	background-color: #f56c2d;
+	border: 1px solid #f56c2d;
+	border-radius: 10px;
+	width: 200px;
+	outline: none;
+	height: 40px
+}
+.BFV-Purchase span{
+	padding-left: 100px;
+}
+.BFV-menu{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height:60px;
+	padding: 10px;
+	border:  1px solid #2E2E2E; 
+	background-color: #2E2E2E;
+	z-index:1;
+}
+.BFV-menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.BFV-menu ul li{
+	float: left;
+}
+.BFV-menu ul a{
+	padding: 5px 50px 5px 50px;
+	display: block;
+	color: #BDBDBD;
+	font-size: 18px;
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+}
+.BFV-menu ul a:hover{
+	background-color: #585858;
+	color: #fff;
+	transition-delay: 100ms;
+	transition-duration: 500ms;
+}
+.BFV-GameRule{
+	background-color: #0B0B61;
+}
+
+.BFV-GameRule img{
+	width: 100%;
+}
+.BFV-Brow{
+	width: 100%;
+	height:920px;
+	padding: 20px;
+	background-image: url(../image/BFV1.jpg);
+	background-size: cover;
+	background-attachment: fixed; 
+}
+.BFV-Brow video{
+	z-index:0;
+}
+.BFV-BrowImg{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height:300px;
+	padding: 10px;
+}
+.BFV-BrowImg img{
+	height: 150px;
+	float: left;
+}
+.BFV-survey{
+	width: 100%;
+	height:2150px;
+	padding: 50px;
+	background-color: #F2F2F2;
+	background-image: url(../image/BFV3.jpg);
+	background-size: 100%;
+	background-attachment: fixed; 
+}
+.BFV-survey-text-head{
+	display: block;
+	text-align: left;
+	font-size: 30px;
+}
+.BFV-survey-branch{
+	min-width: 800px;
+	margin-top: 10px;
+	padding: 25px 20px 10px 20px;
+	height: 360px;
+	width: 100%;
+	font-size: 20px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 1px 1px grey;
+}
+.BFV-survey-branch2{
+	min-width: 1100px;
+	margin-top: 10px;
+	padding: 25px 20px 10px 20px;
+	height: 450px;
+	width: 100%;
+	font-size: 17px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 1px 1px grey;
+}
+.BFV-survey-branch2-left{
+	width: 500px;
+}
+.BFV-survey-branch2-right{
+	width: 530px;padding-right: 40px
+}
+.BFV-survey-branch3{
+	margin-top: 10px;
+	padding: 25px 20px 10px 20px;
+	height: 80px;
+	width: 100%;
+	font-size: 17px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 1px 1px grey;
+}
+.BFV-survey-branch span{
+	display: block;
+	text-align: left;
+}
+.BFV-survey p{
+	display: block;
+	text-align: left;
+}
+.BFV-survey-advice{
+	width: 1140px;
+	height: 430px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.BFV-survey-moneyrule{
+	width: 100%;
+	font-size:15px;
+	padding: 5px 15px 15px 15px;
+	color: #fff;
+	background: rgba(30,38,44,.7);
+	margin-bottom: 10px;
+}
+
+
+
+
+
+

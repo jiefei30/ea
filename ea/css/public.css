@@ -1,0 +1,222 @@
+*{
+	box-sizing: border-box;     /*向内增加边框和内边距*/
+	margin: 0;
+	font-family: "Microsoft JhengHei";
+}
+.superlink{
+	text-decoration: none;
+	color: #58D3F7;
+}
+.superlink2{
+	text-decoration: none;
+	color: #848484;
+}
+a{
+	text-decoration: none;
+}
+#content{
+	margin: 0 auto;
+	padding-left: 280px;
+	display: block;
+/*	table-layout: fixed;
+	overflow-x: hidden;*/
+	height: 100%;
+	width: 100%;
+	max-width: 2210px;
+}
+#Navigation{
+	margin-top: 0px;
+	position: fixed;
+	width: 280px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	background-color : #2E2E2E;
+}
+.Navigation-search{
+	padding-left: 30px;
+}
+.Navigation-search-text{
+	font-size: 15px;
+	padding-left: 8px;
+	border-radius: 15px ;
+	height: 35px;
+	width: 180px;
+	outline: none;
+}
+.Navigation-menu{
+	color:white;
+	padding-top: 10px;
+}
+.Navigation-menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.Navigation-menu li{
+	padding-top: 5px;
+}
+.Navigation-menu a{
+	transition: all 0.3s ease-out;
+}
+.Navigation-menu a:hover{
+	background-color: #585858;
+	color: #fff;
+	transition-delay: 100ms;
+	transition-duration: 500ms;
+}
+.Navigation-menu-store{
+	position: relative;
+	font-size: 18px;
+	color: #fff;
+	padding: 5px 0px 5px 50px; 
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+}
+.Navigation-menu-OA{
+	padding: 5px 82px 5px 50px;
+	color: #BDBDBD;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+}
+.Navigation-menu-BFV{
+	padding: 5px 182px 5px 50px;
+	color: #BDBDBD;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+}
+.Navigation-menu-sell{
+	padding: 5px 193px 5px 50px;
+	color: #BDBDBD;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+}
+.active{
+	background-color: #585858;
+	color: #fff;
+}
+.Navigation-about{
+	padding-left: 40px;
+}
+.Navigation-about span{
+	color: #BDBDBD;
+}
+.Navigation-about a{
+	text-decoration: none;
+	color: #BDBDBD;
+	transition: all 0.3s ease-out;
+}
+.Navigation-about a:hover{
+	color: #fff;
+	transition-delay: 100ms;
+	transition-duration: 500ms;
+}
+.Navigation-login{
+	margin: 175px 5px 0px 37px;
+	width: 200px;
+	height: 50px;
+	border:1px solid #FE642E;
+	border-radius: 10px;
+	background-color: #FE642E;
+	transition: all 0.3s ease-out;
+}
+.Navigation-sign{
+	background-color: #2E2E2E;
+	margin: 10px 5px 0px 37px;
+	width: 200px;
+	height: 50px;
+	border:1px solid #fff;
+	border-radius: 10px;
+}
+.Navigation-login a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 13px 80px 15px 80px;
+}
+.Navigation-sign a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 13px 80px 15px 80px;
+}
+.Navigation-login:hover{
+	background-color: #DF3A01;
+	transition-delay: 100ms;
+	transition-duration: 500ms;
+}
+.Navigation-language{
+	padding-left: 80px;
+	text-decoration: none;
+	color: #BDBDBD;
+	transition: all 0.3s ease-out;
+}
+.Navigation-language:hover{
+	color: #fff;
+	transition-delay: 100ms;
+	transition-duration: 500ms;
+}
+.content-footer{
+	margin: 0 auto;
+	max-width: 2210px;
+	width: 100%;
+	height:400px;
+	padding-top: 70px;
+	padding-left: 300px;
+	background-color: #fff;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-footer button{
+	width: 300px;
+	height: 30px; 
+	border:1px solid #848484;
+	border-radius: 3px;
+	background-color: #fff;
+}
+.img_animation{
+	width: 100%;
+	height: 420px;
+	margin-top: 30px;
+	padding: 10px;
+	overflow: hidden;
+}
+.img_animation img{
+	width: 150px;
+	vertical-align: middle;
+	padding: 15px 15px;
+	transition: all 0.3s ease-out;
+}
+.img_animation img:hover{
+	width: 180px;
+	height: auto;
+	transition-duration: 500ms;
+	transition-delay: 100ms;
+}
+/*图片轮播*/
+.img_animation ul{ /*通过在轮播图后面增加同样的图片来遮挡每次移动结束后的空白间隙，所以需要给足够容纳ul里面所有图片的长度的值*/
+	width: 3200px;
+	list-style: none; /*infinite为无限循环，让轮播无止尽的循环下去*/
+	animation: imgAnimation 15s linear infinite;
+}
+.img_animation ul li{
+	float: left;
+}
+@keyframes imgAnimation{
+	from{}
+	to{
+		/*设置让动画每移动到添加之前的长度之后从新恢复到起始位置*/
+		transform:translate(-1500px);
+	}
+}
+.img_animation ul:hover{
+	animation-play-state:paused;
+	/*通过伪元素控制鼠标的移入轮播图的变化，如果图片为a标签嵌套的话就可以实现不用js注册事件都可以点击的轮播图效果*/
+}

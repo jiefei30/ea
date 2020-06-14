@@ -1,0 +1,376 @@
+.OA_head{
+	position: absolute;
+	top: 0;
+	background-image: url(../image/OriginAccess11.png);
+	background-size: auto;
+	height: 450px;
+	width: 750px;
+	background-repeat: no-repeat;
+	padding: 20px 0px 0px 40px;
+}
+.OA_head img{
+	height: 50px;
+}
+.OA_head a{
+	color: #fff;
+	padding: 13px 15px 13px 15px ;
+	display: block;
+}
+.OA_head_text1{
+	font-size: 45px;
+	display: block;
+	color: #fff;
+}
+.OA_head_text2{
+	font-size: 22px;
+	display: block;
+	color: #fff;
+	width: 350px;
+}
+.OA_head_text3{
+	display: block;
+	color: #fff;
+}
+.OA_compare_branch_button0{
+	display: block;
+	width:220px;
+	height: 50px;
+	color: #fff;
+	border:1px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #FC9D24;
+	transition: all 0.3s ease-out;
+}
+.OA_compare_branch_button0:hover{
+	background-color: #B45F04;
+	transition-delay: 100ms;
+	transition-duration: 500ms;
+}
+.OA_compare_branch_button1{
+	display: block;
+	width:220px;
+	height: 50px;
+	color: #fff;
+	border:1px solid #fff;
+	padding: 13px 15px 13px 15px ;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #141B20;
+	transition: all 0.3s ease-out;
+}
+.OA_compare_branch_button1,.OA_compare_branch_button {
+	
+}
+.OA_compare_branch_button{
+	display: block;
+	width:220px;
+	height: 50px;
+	color: #fff;
+	border:1px solid #fff;
+	padding: 13px 15px 13px 15px ;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #FC9D24;
+	transition: all 0.3s ease-out;
+}
+.OA_compare_branch_button:hover{
+	background-color: #B45F04;
+	transition-delay: 100ms;
+	transition-duration: 500ms;
+}
+.OA_compare {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	width: 100%;
+	height:550px;
+	background-color: #141B20;
+}
+.OA_compare_branch1{
+	margin: 5px 200px 5px 10px;
+	padding: 5px;
+}
+.OA_compare_branch1 img{
+	height:  50px;
+}
+.OA_compare_branch_left1{
+	display: block;
+	color: #fff;
+	width: 400px;
+	height: 70px;
+	padding: 12px 0px 12px 15px;
+	margin: 25px 5px 5px 10px;
+	background-color: #1E262C;
+}
+.OA_compare_branch_left2{
+	display: block;
+	color: #fff;
+	width: 400px;
+	height: 70px;
+	padding: 12px 0px 12px 15px;
+	margin: 10px 5px 5px 10px;
+}
+.OA_compare_branch_left3{
+	display: block;
+	color: #fff;
+	width: 400px;
+	height: 70px;
+	padding: 22px 0px 12px 15px;
+	margin: 10px 5px 5px 10px;
+	background-color: #1E262C;
+}
+.OA_compare_branch_left4{
+	display: block;
+	color: #fff;
+	width: 400px;
+	height: 70px;
+	padding: 22px 0px 12px 15px;
+	margin: 10px 5px 5px 10px;
+}
+.OA_compare_branch2{
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+}
+.OA_compare_branch2_img{
+	margin-left: 50px;
+}
+
+.OA_compare_branch2_img img{
+	height: 40px;
+}
+
+.OA_compare_branch2_text{
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+}
+.OA_compare_branch2_mid1{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+	background-color: #1E262C;
+}
+.OA_compare_branch2_mid2{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+}
+.OA_compare_branch2_mid3{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+	background-color: #1E262C;
+}
+.OA_compare_branch2_mid4{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+}
+.OA_compare_branch2_mid4 img{
+	position: center
+}
+.OA_compare_branch2_mid5{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+}
+.OA_compare_branch3{
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+}
+.OA_compare_branch3_img{
+	margin-left: 50px;
+}
+.OA_compare_branch3_img img{
+	height: 40px;
+}
+.OA_compare_branch3_text{
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+}
+.OA_compare_branch3_right1{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+	background-color: #1E262C;
+}
+.OA_compare_branch_right1 img{
+	position: center;
+}
+.OA_compare_branch3_right2{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+}
+.OA_compare_branch3_right3{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+	background-color: #1E262C;
+}
+.OA_compare_branch3_right4{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+}
+.OA_compare_branch_right4 img{
+	position: center;
+}
+.OA_compare_branch3_right5{
+	display: block;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	padding-top: 23px;
+	margin: 10px 5px 5px 10px;
+	text-align: center;
+}
+.OA_menu{
+	position: sticky;
+	top: 0;
+	width: 100%;height: 60px;
+	background-color: #1F262A;
+	padding: 10px;
+}
+.OA_menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.OA_menu ul li{
+	float: left;
+}
+.OA_menu ul a{
+	padding: 5px 50px 5px 50px;
+	display: block;
+	color: #BDBDBD;
+	font-size: 18px;
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+}
+.OA_menu ul a:hover{
+	background-color: #585858;
+	color: #fff;
+	transition-delay: 100ms;
+	transition-duration: 500ms;
+}
+.OA_jion{
+	height: 2600px;
+	padding: 0px 0px 50px 0px;
+	background-color:#D8D8D8;
+}
+.OA_jion_headtext{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	padding: 50px 0px 30px 0px;
+}
+.OA_enjoy{
+
+	padding-top: 30px;background-color: #EAEEEF
+}
+.OA_enjoy_text1{
+
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	padding: 0px 0px 10px 0px;
+}
+.OA_enjoy_text2{
+
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	padding: 0px 0px 30px 0px;
+}
+.OA_enjoy_img{
+	display: block;
+}
+.OA_enjoy_img img{
+	position: center;
+	width: 100%;
+}
+.OA_experience{
+	width: 100%;
+	height: 800px;
+	background-image: url(../image/OriginAccess8.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.OA_experience_frame{
+	width: 100%;
+	height: 600px;
+	padding: 250px 500px 0px 50px;
+}
+.OA_experience_text1{
+	font-size: 50px;
+	color: #fff;
+}
+.OA_experience_text2{
+	font-size: 30px;
+	color: #fff;
+}
+.OA-service-question{
+	min-width: 500px;
+	width: 780px;
+	padding: 0px 50px 0px 0px;
+}
+.OA-service-question a{
+	display: block;
+	margin-top: 3px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #848484;
+	transition: all 0.3s ease-out;
+}
+.OA-service-question a:hover{
+	color: #000;
+	transition-duration: 250ms;
+	transition-delay: 100ms;
+}
+.OA_end{
+	width: 100%;
+	padding: 50px;
+	background-color:#E6E6E6;
+}
